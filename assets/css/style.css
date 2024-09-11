@@ -875,73 +875,13 @@ header .mm-line:last-child{
 
 /*Menu Mobile*/
 
-@media (min-width:450px) and (max-width:1166px){
-    header .menu{
-        display: none;
-    }
-    header .menu-mobile,
-    header details .menu{
-        display: block;
-    }
-    .headercontainer{
-        justify-content: space-between;
-        padding: 0 50px;
-    }
-    header details .menu ul{
-        flex-direction: column;
-        position: absolute;
-        margin-left: -130px;
-        padding: 50px 0 50px 30px;
-        background-color: rgba(0,0,0,0.8)
-    }
-    header details .menu li{
-        margin-bottom: 30px;
-    }
-    header details .menu li:last-child{
-        margin-bottom: 0;
-    }
-    header details .menu a{
-        border: 0;
-        font-size: 17px;
-        height: auto;
-    }
-    .menu nav a:hover,
-    .menu nav .active a{
-        border-bottom: 0;
-        transition: 0.2s;
-        color: #b28756;
-    }
-
-
-
-    .aboutus{
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
-    .default .abouttext p{
-        padding-right: 0;
-        padding: 0 30px;
-    }
-    .aboutimg{
-        margin-top: 70px;
-    }
-
-
-
-    .time{
-        max-width: 700px;
-    }
-
-
-
+@media (min-width:801PX) and (max-width:1000px){
     .planos{
         flex-direction: column;
         align-items: center;
     }
     .plano{
         width: 400px;
-        margin-right: 0;
         margin-top: 20px;
     }
     .plano:first-child{
@@ -958,67 +898,9 @@ header .mm-line:last-child{
         margin-right: 0;
         margin-bottom: 30px;
     }
-
-
-
-    .fatos{
-        padding: 0 20px;
-    }
-    .fato-area p{
-        margin-top: 30px;
-    }
-
-    .footer-area{
-        padding: 0 20px;
-    }
 }
 
-@media (min-width:800px) and (max-width:1166px){
-    .fatos{
-        flex-direction: column;
-    }
-    .fatos .fato-area{
-        margin-right: 0;
-        margin-top: 20px;
-    }
-    .footer-area{
-        flex-direction: column;
-        align-items: center;
-    }
-    .footer-area--form{
-        order: 1;
-    }
-    .footer-area--text{
-        order: 2;
-    }
-    .footer-area--redes{
-        order: 3;
-    }
-    .footer-area--form,
-    .footer-area--text{
-        margin-bottom: 35px;
-    }
-    .footer-area--form form{
-        padding-left: 50px;
-        padding-right: 50px;
-    }
-    .footer-area--text{
-        margin-right: 0;
-        width: 340px;
-    }
-    .footer-area--text p{
-        text-align: center;
-    }
-    .footer-area--redes{
-        align-items: center;
-        margin-right: 0;
-    }
-    .footer-area--redes .footer-redes{
-        margin-bottom: 30px;
-    }
-}
-
-@media (min-width:450px) and (max-width:800px){
+@media (min-width:451px) and (max-width:800px){
     header .menu{
         display: none;
     }
@@ -1118,6 +1000,11 @@ header .mm-line:last-child{
 
     .time{
         max-width: 700px;
+    }
+
+
+    .cliente-area .review{
+        width: auto;
     }
 
 
@@ -1342,7 +1229,7 @@ header .mm-line:last-child{
         align-items: center;
     }
     .plano{
-        width: 400px;
+        width: 335px;
         margin-right: 0;
         margin-top: 20px;
     }
@@ -1358,7 +1245,7 @@ header .mm-line:last-child{
         padding-left: 0;
     }
     .premium-recursos{
-        width: 385px;
+        width: 350px;
     }
     .premium-img{
         margin-right: 0;
@@ -1377,7 +1264,7 @@ header .mm-line:last-child{
 
 
     .cliente-area .review{
-        width: 400px;
+        width: auto;
     }
 
 
@@ -1398,6 +1285,10 @@ header .mm-line:last-child{
     }
     .fatos{
         flex-direction: column;
+        align-items: center;
+    }
+    .fatos .fato-area{
+        width: 350px;
     }
 
 
